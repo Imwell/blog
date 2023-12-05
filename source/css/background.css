@@ -1,0 +1,32 @@
+/* 文章页背景 */
+.layout_post > #post {
+    /* 以下代表白色透明度为0.3 */
+    background: rgba(255, 255, 255, 1);
+}
+
+/* 所有背景（包括首页卡片、文章页、页面页等） */
+#aside_content .card-widget, #recent-posts > .recent-post-item, .layout_page > div:first-child:not(.recent-posts), .layout_post > #page, .layout_post > #post, .read-mode .layout_post > #post {
+    /* 以下代表白色透明度为0.3 */
+    background: rgba(255, 255, 255, 1);
+}
+
+#page-header:not(.not-top-img):before {
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.framework-info {
+    display: none;
+}
+
+#recent-posts > .recent-post-item .post_cover img.post-bg {
+    object-fit: contain;
+}
+
+.imgHover, .article-sort-item-img img, #recent-posts > .recent-post-item .post_cover img.post_bg, #aside-content .aside-list > .aside-list-item .thumbnail > img {
+    object-fit: contain;
+}
+
+
+.imgHover:hover, .article-sort-item-img :first-child:hover, #recent-posts > .recent-post-item .post_cover .post-bg:hover, #aside-content .aside-list > .aside-list-item .thumbnail :first-child:hover {
+    object-fit: contain;
+}
